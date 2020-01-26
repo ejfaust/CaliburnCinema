@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caliburn", "Caliburn.csproj", "{3C397503-6EEC-4FC5-AACC-1A87C76776FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caliburn.Tests", "..\Caliburn.Tests\Caliburn.Tests.csproj", "{A27F9AF9-27AE-4CD6-ABC4-8894A7ED0C7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C397503-6EEC-4FC5-AACC-1A87C76776FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C397503-6EEC-4FC5-AACC-1A87C76776FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C397503-6EEC-4FC5-AACC-1A87C76776FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C397503-6EEC-4FC5-AACC-1A87C76776FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A27F9AF9-27AE-4CD6-ABC4-8894A7ED0C7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A27F9AF9-27AE-4CD6-ABC4-8894A7ED0C7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A27F9AF9-27AE-4CD6-ABC4-8894A7ED0C7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A27F9AF9-27AE-4CD6-ABC4-8894A7ED0C7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C2ACEA8-7F70-43D4-B45C-1487C7724896}
+	EndGlobalSection
+EndGlobal
