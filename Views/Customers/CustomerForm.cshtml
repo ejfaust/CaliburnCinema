@@ -1,0 +1,37 @@
+﻿@model Caliburn.ViewModels.CustomerFormViewModel
+@{
+    ViewBag.Title = "New";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>New Customer</h2>
+
+@*BeginForm targets the name of the action taken when we post this form. *@
+@*Since this method returns a disposable object, wrap the form in using to close off the form tag*@
+@using (Html.BeginForm("Save", "Customers"))
+{
+    <div class="form-group">
+        @Html.LabelFor(m => m.Customer.Name)
+
+        @*When using html.TextBoxFor, ASP.NET MVC 5 will add validations based on the Model tags*@
+        @Html.TextBoxFor(m => m.Customer.Name, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Customer.Birthdate)
+        @Html.TextBoxFor(m => m.Customer.Birthdate, "{0:d MMM yyyy}", new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Customer.MembershipTypeId)
+        @Html.DropDownListFor(m => m.Customer.MembershipTypeId, new SelectList(Model.MembershipTypes, "Id", "Name"), "Select Membership Type", new { @class = "form-control" })
+    </div>
+    @*Go to www.getbootstrap.com for proper markup*@
+    <div class="checkbox">
+        <label>
+            @Html.CheckBoxFor(m => m.Customer.IsSubscriberToNewsletter) Subscribed to Newsletter?
+        </label>
+    </div>
+
+    @*Put in hidden value to be picked up by Save()*@
+    @Html.HiddenFor(m => m.Customer.Id); 
+    <button type="submit" class="btn btn-primary">Save</button>
+}
