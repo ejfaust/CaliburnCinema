@@ -216,3 +216,9 @@ C:\Users\ejfaust\source\repos\CaliburnCinema\obj\Debug\Caliburn.csproj.GenerateR
 C:\Users\ejfaust\source\repos\CaliburnCinema\obj\Debug\Caliburn.csproj.CopyComplete
 C:\Users\ejfaust\source\repos\CaliburnCinema\obj\Debug\Caliburn.dll
 C:\Users\ejfaust\source\repos\CaliburnCinema\obj\Debug\Caliburn.pdb
+C:\Users\ejfaust\source\repos\CaliburnCinema\bin\System.Net.Http.Formatting.dll
+C:\Users\ejfaust\source\repos\CaliburnCinema\bin\System.Web.Http.dll
+C:\Users\ejfaust\source\repos\CaliburnCinema\bin\System.Web.Http.WebHost.dll
+C:\Users\ejfaust\source\repos\CaliburnCinema\bin\System.Net.Http.Formatting.xml
+C:\Users\ejfaust\source\repos\CaliburnCinema\bin\System.Web.Http.xml
+C:\Users\ejfaust\source\repos\CaliburnCinema\bin\System.Web.Http.WebHost.xml
