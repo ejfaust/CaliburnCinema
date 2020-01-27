@@ -14,12 +14,12 @@ namespace Caliburn.Models
         [StringLength(255)]
         public string Name { get; set; }
 
-        [Display(Name = "Genre")]
         public Genre Genre { get; set; }
 
         //Required is placed here bc validation issues crop up with lacking Genre on Save().
         //MVC does not see the difference from a database perspective, migration will not see the difference.
-        [Required] 
+        [Required]
+        [Display(Name = "Genre")]
         public byte GenreId { get; set; }
 
         public DateTime DateAdded { get; set; }
@@ -27,6 +27,7 @@ namespace Caliburn.Models
         [Display(Name = "Release Date")]
         public DateTime ReleaseDate { get; set; }
 
+        [Range(1,20)]
         [Display(Name = "Number in Stock")]
         public byte NumberInStock { get; set; }
     }//end class Movie
