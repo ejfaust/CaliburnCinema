@@ -224,3 +224,9 @@ C:\Users\ejfaust\source\repos\CaliburnCinema\bin\System.Web.Http.xml
 C:\Users\ejfaust\source\repos\CaliburnCinema\bin\System.Web.Http.WebHost.xml
 C:\Users\ejfaust\source\repos\CaliburnCinema\bin\AutoMapper.dll
 C:\Users\ejfaust\source\repos\CaliburnCinema\bin\AutoMapper.xml
+C:\Users\ejfaust\source\repos\CaliburnCinema\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ejfaust\source\repos\CaliburnCinema\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ejfaust\source\repos\CaliburnCinema\obj\Debug\Caliburn.Migrations.AddUserAuthentications.resources
+C:\Users\ejfaust\source\repos\CaliburnCinema\bin\Glimpse.Core.dll
+C:\Users\ejfaust\source\repos\CaliburnCinema\bin\Glimpse.AspNet.dll
+C:\Users\ejfaust\source\repos\CaliburnCinema\bin\Elmah.dll
