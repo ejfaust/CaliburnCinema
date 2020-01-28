@@ -222,3 +222,5 @@ C:\Users\ejfaust\source\repos\CaliburnCinema\bin\System.Web.Http.WebHost.dll
 C:\Users\ejfaust\source\repos\CaliburnCinema\bin\System.Net.Http.Formatting.xml
 C:\Users\ejfaust\source\repos\CaliburnCinema\bin\System.Web.Http.xml
 C:\Users\ejfaust\source\repos\CaliburnCinema\bin\System.Web.Http.WebHost.xml
+C:\Users\ejfaust\source\repos\CaliburnCinema\bin\AutoMapper.dll
+C:\Users\ejfaust\source\repos\CaliburnCinema\bin\AutoMapper.xml
