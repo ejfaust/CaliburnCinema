@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 using Caliburn.Models;
+using Microsoft.AspNet.Identity.EntityFramework;
 
 namespace Caliburn.Controllers
 {

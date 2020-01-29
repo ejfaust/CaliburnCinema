@@ -230,3 +230,4 @@ C:\Users\ejfaust\source\repos\CaliburnCinema\obj\Debug\Caliburn.Migrations.AddUs
 C:\Users\ejfaust\source\repos\CaliburnCinema\bin\Glimpse.Core.dll
 C:\Users\ejfaust\source\repos\CaliburnCinema\bin\Glimpse.AspNet.dll
 C:\Users\ejfaust\source\repos\CaliburnCinema\bin\Elmah.dll
+C:\Users\ejfaust\source\repos\CaliburnCinema\obj\Debug\Caliburn.Migrations.SeedUsers.resources

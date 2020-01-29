@@ -7,6 +7,7 @@ using Caliburn.ViewModels;
 
 namespace Caliburn.Controllers
 {
+
     public class CustomersController : Controller
     {
         private ApplicationDbContext _context;
