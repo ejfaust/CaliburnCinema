@@ -234,3 +234,4 @@ C:\Users\ejfaust\source\repos\CaliburnCinema\obj\Debug\Caliburn.Migrations.SeedU
 C:\Users\ejfaust\source\repos\CaliburnCinema\bin\Glimpse.Ado.dll
 C:\Users\ejfaust\source\repos\CaliburnCinema\bin\Glimpse.EF6.dll
 C:\Users\ejfaust\source\repos\CaliburnCinema\bin\Glimpse.Mvc5.dll
+C:\Users\ejfaust\source\repos\CaliburnCinema\obj\Debug\Caliburn.Migrations.AddRentals.resources
