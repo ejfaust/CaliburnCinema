@@ -14,7 +14,9 @@ namespace Caliburn
                         "~/Scripts/bootbox.js",
                         "~/Scripts/respond.js",
                         "~/Scripts/DataTables/jquery.dataTables.js",
-                        "~/Scripts/DataTables/dataTables.bootstrap.js"
+                        "~/Scripts/DataTables/dataTables.bootstrap.js",
+                        "~/Scripts/typeahead.bundles.js",
+                        "~/Scripts/toastr.js"
                       ));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
@@ -26,9 +28,11 @@ namespace Caliburn
                         "~/Scripts/modernizr-*"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap-lumen.css",
+                      "~/Content/bootstrap-superhero.css",
                       "~/content/datatables/css/datatables.bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/site.css",
+                      "~/Content/toastr.css",
+                      "~/Content/typeahead.css"));
         }
     }
 }

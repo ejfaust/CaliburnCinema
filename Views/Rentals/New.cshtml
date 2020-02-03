@@ -91,10 +91,11 @@
                     data: vm
                 })
                 .done(function () {
+                    toastr.success("Rentals successfully added.");
                     console.log("done");
                 })
                 .fail(function () {
-
+                    toastr.error("Something went wrong!");
                 });
             });
         });
