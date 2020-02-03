@@ -5,9 +5,9 @@
 		<a class="navbar-brand" href="/">Caliburn Cinema Rentals</a>
 		<div class="navbar-collapse collapse" id="navbarSupportedContent">
 			<ul class="nav navbar-nav mr-auto">
-				<li class="nav-item"><a href="/" class="nav-link">Home</a></li>
-				<li class="nav-item"><a href="/Customers/Index" class="nav-link">Customers</a></li>
-				<li class="nav-item"><a href="/Movies/Index" class="nav-link">Movies</a></li>
+				<li>@Html.ActionLink("New Rental", "New", "Rentals")</li>
+				<li>@Html.ActionLink("Customers", "Index", "Customers")</li>
+				<li>@Html.ActionLink("Movies", "Index", "Movies")</li>
 			</ul>
 
 			<ul class="nav navbar-nav navbar-right mr-auto">
